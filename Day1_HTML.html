@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MINATALLA - Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin-right: 15px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      section {
+        padding: 20px;
+      }
+      footer {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+      form label,
+      input,
+      textarea {
+        display: block;
+        margin-bottom: 10px;
+      }
+      button {
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>MINATALLA</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello, I'm MINATALLA i am a beginner developer learning web development.
+        I enjoy building simple projects and learning new things! And joinig
+        Muka Bootcamp to learn more about web development. (;
+      </p>
+      <img src="your-photo.jpg" alt="Your Photo" width="200" />
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h3>Project 1:: Build a Personal Portfolio Webpage</h3>
+          <p>A basic to-do list app created with HTML, CSS, and JavaScript.</p>
+          <a href="https://github.com/minatallasabri/Back_end_tasks target="_blank"
+            >GitHub Link</a
+          >
+        </li>
+        <li>
+          <h3>Project 2: Portfolio Website</h3>
+          <p>This portfolio you're looking at right now!</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <table>
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Beginner</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 MINATALLA SABRRY</p>
+    </footer>
+  </body>
+</html>
