@@ -51,6 +51,18 @@ nav ul li a {
     color: #fffefe;
 }
 
+/* Light Mode (default) */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 header {
     background-color: #04203d;
     position: sticky;
